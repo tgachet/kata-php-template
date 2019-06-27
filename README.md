@@ -1,2 +1,10 @@
 # kata-php-template
-Containerized php + phpunit template for katas
+## Prerequisite
+Docker
+
+## Makefile
+Install dependancies (phpunit) : `make install`
+
+Run tests : `make test`
+
+Shell : `make start`
