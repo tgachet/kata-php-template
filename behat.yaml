@@ -1,0 +1,6 @@
+default:
+  suites:
+    home:
+      paths: [ '%paths.base%/tests/Feature/dummy.feature' ]
+      contexts:
+        - App\Tests\Feature\Context\DummyContext
