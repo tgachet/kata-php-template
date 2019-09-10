@@ -10,7 +10,10 @@
         "behat/behat": "^3.5",
         "phpstan/phpstan": "^0.11.15",
         "symfony/var-dumper": "^4.3",
-        "fzaninotto/faker": "^1.8"
+        "fzaninotto/faker": "^1.8",
+        "behat/mink": "^1.7",
+        "behat/mink-goutte-driver": "^1.2",
+        "behat/mink-extension": "^2.3"
     },
     "autoload": {
         "psr-4": {

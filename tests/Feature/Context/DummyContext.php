@@ -2,12 +2,12 @@
 
 namespace App\Tests\Feature\Context;
 
-use Behat\Behat\Context\Context;
+use Behat\MinkExtension\Context\RawMinkContext;
 
 /**
  * Delete me
  */
-class DummyContext implements Context
+class DummyContext extends RawMinkContext
 {
     /**
      *@Given I do a dummy test
